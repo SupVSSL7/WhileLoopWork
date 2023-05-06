@@ -1,0 +1,10 @@
+number_of_entries = 0
+
+while True:
+    number = int(input("Enter a number: "))
+    number_of_entries += 1
+
+    if number == 5:
+        break
+
+print(f"You entered {number_of_entries} numbers.")
